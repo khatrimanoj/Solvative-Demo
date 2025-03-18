@@ -4,8 +4,6 @@ import SearchBar from "./components/SearchBar";
 import PlacesTable from "./components/TableListing";
 import Pagination from "./components/Pagination";
 
-const API_KEY = "your_default_api_key_here";
-
 const App = () => {
   const [query, setQuery] = useState("");
   const [places, setPlaces] = useState([]);
